@@ -3,7 +3,7 @@ import React  from 'react';
 import { Carousel } from 'antd';
 import {makeStyles,Typography,Grid,Button,useMediaQuery,useTheme} from '@material-ui/core';
 
-import banner1 from '../../../asset/img/banner1.jpg'
+import banner1 from '../../../asset/img/milling.jpg'
 import banner2 from '../../../asset/img/banner2.jpg'
 
  
@@ -50,7 +50,8 @@ const useStyles = makeStyles(theme=>({
     },
     title:{
         color:'black',
-        margin:5    
+        margin:5 ,
+        textAlign:'center'
     },
     btn:{
         marginLeft:'30%',
@@ -62,7 +63,7 @@ const useStyles = makeStyles(theme=>({
 const  Banner  = ()=>{
     const classes = useStyles();
     const theme = useTheme();
-    const matches = useMediaQuery(theme.breakpoints.up('lg'));
+    const matches = useMediaQuery(theme.breakpoints.up('md'));
      
     
  return (   
@@ -70,7 +71,7 @@ const  Banner  = ()=>{
              <div className={classes.content1} >
                 <Grid container className={classes.body}  alignItems='center' justify='center' spacing={12}>
                     <Grid container item  xl={8} md={8} lg={8} xs={12} sm={12}  justify='center' alignItems='center' className={classes.paragraph} >
-                        <Typography align='center' variant={matches?'h3':'h5'}  className={classes.title}>SARP MASTAR APARAT MAKİNA KALIP  </Typography>
+                        <Typography align='center' variant={matches?'h5':'p1'}  className={classes.title}>SARP MASTAR APARAT MAKİNA KALIP SAN. TİC. LTD. ŞTİ.</Typography>
 
                        {matches ? <Typography  paragraph align='left' variant='subtitle1'  className={classes.title}> Kurucu ortaklarının talaşlı imalat konusundaki bilgi ve tecrübelerini bir araya getirerek daha verimli bir şekilde sanayinin hizmetine sunmak amacıyla 2006 yılında kurulmuştur.</Typography>
                        :

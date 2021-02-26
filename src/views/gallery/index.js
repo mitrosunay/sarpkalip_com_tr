@@ -52,7 +52,7 @@ return(
         <Grid container style={{height:'100%',width:'100%'}} spacing={12} justify='center' alignItems='center'>
             <Divider></Divider>
             <Grid container key={'header1'} item className={classes.item} justify='center' alignItems='center'   lg={12} xl={12} md={12}  xs={12} sm={12}>
-                <Typography variant='h4'> - Tasarımlar - </Typography>
+                <Typography variant='h3'>  TASARIM  </Typography>
             </Grid>
             <Divider></Divider>
             {descount.map((tile,index) => 
@@ -64,7 +64,7 @@ return(
          <Grid container style={{height:'100%',width:'100%'}} spacing={12} justify='center' alignItems='center'>
             <Divider></Divider>
             <Grid container key={'header1'} item className={classes.item} justify='center' alignItems='center'   lg={12} xl={12} md={12}  xs={12} sm={12}>
-                <Typography variant='h4'> - Atölye - </Typography>
+                <Typography variant='h3'> ÜRÜNLERİMİZ</Typography>
             </Grid>
             <Divider></Divider>
             {maccount.map((tile,index) => 

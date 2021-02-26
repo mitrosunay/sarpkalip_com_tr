@@ -77,9 +77,9 @@ const Footers = ()=> {
                 <Grid container  className={Styles.container} alignItems='center' justify='center'  >
                     <Grid container item  lg={6} xl={6} md={6} sm={12} xs={12} justify='center' style={{flexDirection:'column'}}>
                          <Typography variant="subtitle1" paragraph className={matches?Styles.text:Styles.text2} >
-                        Organize Sanayi Bölgesi 75.Yıl   </Typography>
+                        Organize Sanayi Bölgesi 75.Yıl Bulvarı</Typography>
                         <Typography variant="subtitle1" paragraph  className={matches?Styles.text:Styles.text2} >
-                       Bulvarı Demirciler Sanayi Sitesi B Blok No: 39  </Typography>
+                        Demirciler Sanayi Sitesi B Blok No: 39  </Typography>
                         <Typography variant="subtitle2" paragraph  className={matches?Styles.text:Styles.text2} > Nilüfer |  BURSA, Türkiye</Typography>
                     </Grid>
                     <Grid container item  lg={6} xl={6} md={6} sm={12} xs={12}  justify='center' style={{flexDirection:'column'}}>

@@ -37,17 +37,17 @@ const Contact = ()=>{
                         <img alt="example" src={pic2} style={{width:'30%',marginLeft:'35%',marginBottom:30}}/>
 
             <Divider></Divider>
-                        <Typography variant="h6" paragraph className={Styles.text2} >  Adres :</Typography>
+                        {/* <Typography variant="h6" paragraph className={Styles.text2} >  Adres :</Typography> */}
                         <Typography variant="subtitle1" paragraph className={Styles.text2} >
-                        Organize Sanayi Bölgesi 75.Yıl   </Typography>
+                        Organize Sanayi Bölgesi 75.Yıl  Bulvarı </Typography>
                         <Typography variant="subtitle1" paragraph className={Styles.text2} >
-                       Bulvarı Demirciler Sanayi Sitesi B Blok No: 39  </Typography>
+                        Demirciler Sanayi Sitesi B Blok No: 39  </Typography>
                         <Typography variant="subtitle2" paragraph className={Styles.text2} > Nilüfer |  BURSA, Türkiye</Typography>
 
                 <Divider></Divider>
 
                 <Typography variant="body1" paragraph className={Styles.text2} align='center' > <Phone /> Telefon :  +90 (224) 241 41 82</Typography>
-                <Typography variant="body1" paragraph className={Styles.text2} align='center' > <Phonelink/>  Faks :  +90 (224) 241 41 83</Typography>
+                <Typography variant="body1" paragraph className={Styles.text2} align='center' > <Phonelink/>  Faks         :  +90 (224) 241 41 83</Typography>
                 <Typography variant="body1" paragraph className={Styles.text2} align='center'  >   <Email/> Email :  ekaratepe@sarpkalip.com</Typography>
 
              </Grid>

@@ -39,7 +39,7 @@ const TabOptions = [
   {
     key:0,
     href : '/',
-    label:'AnaSayfa'
+    label:'Ana Sayfa'
   },  
   {
     key:1,
