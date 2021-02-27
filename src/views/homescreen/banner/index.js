@@ -37,6 +37,7 @@ const useStyles = makeStyles(theme=>({
     },
     paragraph:{
         padding:50,
+        borderRadius:30,
         backgroundColor:'white',
         opacity:0.7,
         height:'60%',

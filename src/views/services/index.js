@@ -38,7 +38,7 @@ return(
                     cover={<img alt="example" src={pic1}  style={{width:'100%'  }}/>}
                     >
                     <Meta title={
-                         <Typography variant='h6' align='center' >Ürün Geliştirme :</Typography>
+                         <Typography variant='h6' align='center' >Ürün Geliştirme </Typography>
                     }
                     description={
                         <>
@@ -57,7 +57,7 @@ return(
                     cover={<img alt="example" src={pic2}  style={{width:'100%'  }}/>}
                     >
                     <Meta title={
-                         <Typography variant='h6' align='center' >Ürün Tasarımı :</Typography>
+                         <Typography variant='h6' align='center' >Ürün Tasarımı </Typography>
                     }
                     description={
                         <>
@@ -83,13 +83,18 @@ return(
                     cover={<img alt="example" src={pic3}  style={{width:'100%'  }}/>}
                     >
                     <Meta title={
-                                                  <Typography variant='h6' align='center' >İmalat :</Typography>
+                                                  <Typography variant='h6' align='center' >İmalat </Typography>
 
                     }
                     description={
                         <>
-                        <Typography variant='body1' align='left'  style={{marginTop:10}}>
-                            Ürün, parça veya üretim ekipmanlarının geniş tezgah parkurumuz ile imalatını gerçekleştirmek.                            </Typography>
+                        <Typography variant='body1' align='left'  style={{marginTop:10}}> 
+                            Makina imalat sanayii, hemen hemen bütün üretim sektörlerine girdi sağlamakta olup, bu sektörlerin itici gücüdür.
+                            Makine ve aksamları, kullanacak sektör ve kullanıcının taleplerine ve ürünün fonksiyonlarına göre tasarım ve proje 
+                            aşamasından geçer, yeniden planlanır ve üretilir. Şirketimiz bu üretim proseslerinde ve de makinaların kullanımı 
+                            sonrası doğan yedek parça ihtiyaçları için,
+                            ciddi bir tedarikçi konumundadır.
+                        </Typography>
 
                             
                         </>
