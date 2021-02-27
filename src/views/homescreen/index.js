@@ -28,6 +28,10 @@ const useStyles = makeStyles(theme=>({
                 flexDirection:'row',
                 marginTop:50,
                 padding:20,
+                [theme.breakpoints.down('sm')]:{
+                        padding:10,
+                        flexDirection:'column',
+                       },
 
         },
         videocontainer:{
@@ -39,7 +43,6 @@ const useStyles = makeStyles(theme=>({
                 [theme.breakpoints.down('sm')]:{
                         padding:10,
                         flexDirection:'column',
-
                        },
 
         },
@@ -47,6 +50,15 @@ const useStyles = makeStyles(theme=>({
                 padding:20,
         }
 }))
+
+
+const CurrentYear   = () =>{
+
+     
+
+        return new Date().getFullYear()-2006
+}
+
 
 const HomeScreen = () =>{
         const classes = useStyles()
@@ -78,8 +90,8 @@ const HomeScreen = () =>{
                                         cover={<img alt="example" src={pic1}   height='175px' />}
                                         >
                                         <Meta title="Mühendislik Hizmetleri" 
-                                        description='Sektöründeki 10 yılı aşkın birikimi ile kaliteden ödün vermeden müşteri ve 
-                                        çözüm odaklı çalışmayı ilke edinmiş olan SARP KALIP ideal mühendislik çözümleri üretir.'   />
+                                        description={`Sektöründeki  ${CurrentYear()} yıllık bilgi ve birikimi ile kaliteden ödün vermeden müşteri ve 
+                                        çözüm odaklı çalışmayı ilke edinmiş olan firmamız ideal mühendislik çözümleri üretir.`}  />
                                         </Card>
                                 </Grid>
                                 <Grid container item  xl={4} lg={4} xs={12} md={12} sm={12} justify='center' >
@@ -112,7 +124,7 @@ const HomeScreen = () =>{
                                 <Grid container item  className={classes.videobody}   xl={3} lg={3} xs={3} md={6} sm={12} justify='center'>
                                 <iframe  title='video3' width="450" height="275"   src="https://www.youtube.com/embed/iTL8162qy7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </Grid>
-                                   <Grid container item  className={classes.videobody}   xl={3} lg={3} xs={3} md={6} sm={12} justify='center'>  
+                                <Grid container item  className={classes.videobody}   xl={3} lg={3} xs={3} md={6} sm={12} justify='center'>  
                                    <iframe  title='video4' width="450" height="275"  src="https://www.youtube.com/embed/V-7zXcbgyFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                </Grid>
                       
 

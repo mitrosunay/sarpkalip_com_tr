@@ -27,13 +27,16 @@ const description = ()=>{
     return ( 
     <>
             <Typography variant='body1' align='center'>
-            Sarp Mastar Aparat Makina Kalıp San. ve Tic. Ltd. Şti. 2006 yılında Bursa'nın Beşevler Küçük San. Sitesinde ticari faaliyetine başlamıştır. 2008 yılından itibaren Organize Sanayi Demirciler Sanayi Sitesinde faaliyet göstermektedir.
+            Sarp Mastar Aparat Makina Kalıp San. Tic. Ltd. Şti. 2006 yılında Bursa'nın Küçük Sanayi Sitesinde ticari faaliyetine başlamıştır. 
+            2008 yılından itibaren Organize Sanayi Bölgesinde faaliyetlerine devam etmektedir.
             </Typography>
             <Typography variant='body1' align='center'>
-            Sektöre başladığı ilk günden bugüne kadar büyüme ve değişen, gelişen teknolojiye en hızlı şekilde uyum sağlamayı kendisine kurumsallık çerçevesi içinde bir amaç edinmiştir.
+            Sektöre başladığı ilk günden bugüne kadar büyüme ve değişen, gelişen teknolojiye en hızlı şekilde uyum sağlamayı 
+            kendisine kurumsallık çerçevesi içinde bir amaç edinmiştir.
             </Typography>
             <Typography variant='body1' align='center'>
-            Gerekli tüm teknik eğitim ve bilgi donanımına sahip çalışanları ile SARP sektörde öncü hizmet verdiği sanayi kuruluşlarına destek olmayı bir prensip edinmiş ve bu doğrultuda rotasını belirlemiştir.
+            Gerekli tüm teknik eğitim ve bilgi donanımına sahip çalışanları ile sektörde öncü hizmet verdiği sanayi kuruluşlarına destek olmayı 
+            bir prensip edinmiş ve bu doğrultuda rotasını belirlemiştir.
             </Typography>
     </>
     )

@@ -80,13 +80,16 @@ const Footers = ()=> {
                         Organize Sanayi Bölgesi 75.Yıl Bulvarı</Typography>
                         <Typography variant="subtitle1" paragraph  className={matches?Styles.text:Styles.text2} >
                         Demirciler Sanayi Sitesi B Blok No: 39  </Typography>
-                        <Typography variant="subtitle2" paragraph  className={matches?Styles.text:Styles.text2} > Nilüfer |  BURSA, Türkiye</Typography>
+                        <Typography variant="subtitle2" paragraph  className={matches?Styles.text:Styles.text2} > NİLÜFER - BURSA, TÜRKİYE</Typography>
+                        <Typography variant='caption' paragraph className={Styles.text2} align='left'>  {`© ${(new Date()).getFullYear()}. SARP MASTAR APARAT MAKİNA KALIP SAN.TİC.LTD.ŞTİ.`}  </Typography>
+
                     </Grid>
                     <Grid container item  lg={6} xl={6} md={6} sm={12} xs={12}  justify='center' style={{flexDirection:'column'}}>
                         <Typography variant="body1" paragraph className={Styles.text2} align='right' > <Phone /> Telefon :  +90 (224) 241 41 82</Typography>
                         <Typography variant="body1" paragraph className={Styles.text2} align='right' > <Phonelink/>  Faks :  +90 (224) 241 41 83</Typography>
+                        <Typography variant="body1" paragraph className={Styles.text2} align='right' >   Nilüfer Vergi Dairesi : 7510399185</Typography>
+
                         <Typography variant="body1" paragraph className={Styles.text2} align='right'  >   <Email/> Email :  ekaratepe@sarpkalip.com</Typography>
-                        <Typography variant='caption' paragraph className={Styles.text2} align='right'>  {`© ${(new Date()).getFullYear()}. SARP MASTAR APARAT MAKİNA KALIP SAN.TİC.LTD.ŞTİ.`}  </Typography>
                     </Grid>
                     <Grid container item  lg={12} xl={12} md={12} sm={12} xs={12}  justify='center' style={{flexDirection:'column'}}>
                     {Copyright()}
