@@ -8,6 +8,7 @@ import pic2 from '../../asset/img/2.png';
 import pic3 from '../../asset/img/otomasyon.jpg';
 import pic4 from '../../asset/img/engineer.jpg';
 import pic5 from '../../asset/img/design.jpg';
+import pic6 from '../../asset/img/erezyon.jpeg';
 
 const { Meta } = Card;
 
@@ -73,19 +74,31 @@ const HomeScreen = () =>{
                 </Grid>
                 <Grid container alignItems='center' className={classes.container} >
                         <Grid container alignItems='center' justify='center'>
-                                <Grid container item  className={classes.cardbody}>
+
+                                <Grid container item  className={classes.cardbody}  xl={6} lg={6} xs={12} md={12} sm={12} >
                                         <Card bordered
                                          style={{ width: '100%',margin:10 ,borderRadius:40}}
-                                        cover={<img alt="example" src={pic2} style={{borderRadius:40}}/>}
+                                        cover={<img alt="example" src={pic2} style={{borderRadius:40,height:'300px',width:'100%'}}/>}
                                         >
-                                        <Meta title="Bünyesinde bulunan uzman tasarım ekibi ile profesyonel tasarım süreçlerini uluslararası standartlarda yönetebilmektedir. "   />
+                                        <Meta title='Tasarım'  description="Bünyesinde bulunan uzman tasarım ekibi ile profesyonel tasarım süreçlerini uluslararası standartlarda yönetebilmektedir. " />
+                                        </Card>
+                                </Grid>
+                                <Grid container item  className={classes.cardbody} xl={6} lg={6} xs={12} md={12} sm={12} >
+                                        <Card bordered
+                                         style={{ width: '100%',margin:10 ,borderRadius:40}}
+                                        cover={<img alt="example" src={pic3} style={{borderRadius:40,height:'300px',width:'100%'}}/>}
+                                        >
+                                      
+                                        <Meta title="Otomasyon " 
+                                        description='Makine ve ekipmanlarınızı, PLC sistemleri kullanarak en son yeniliklere göre projelendirip, size çalışma rahatlığı katıyor ve zamandan tasarruf sağlıyoruz.'   />
+                                      
                                         </Card>
                                 </Grid>
                         </Grid>
                         <Grid container alignItems='center' className={classes.videocontainer}  >
-                                <Grid container item  xl={3} lg={3} xs={12} md={12} sm={12}   justify='center'>
+                                <Grid container item  xl={3} lg={3} xs={12} md={6} sm={12}   justify='center'>
                                         <Card
-                                         bordered
+                                         bordered hoverable
                                          style={{ width: '90%',height:'350px' ,borderRadius:30  , margin:10,  }}
                                         cover={<img alt="example" src={pic1}    height='200px'  style={{borderRadius:30}}/>}
                                         >
@@ -94,8 +107,8 @@ const HomeScreen = () =>{
                                         çözüm odaklı çalışmayı ilke edinmiş olan firmamız ideal mühendislik çözümleri üretir.`}  />
                                         </Card>
                                 </Grid>
-                                <Grid container item xl={3} lg={3} xs={12} md={12} sm={12} justify='center' >
-                                <Card bordered
+                                <Grid container item xl={3} lg={3} xs={12} md={6} sm={12} justify='center' >
+                                <Card bordered hoverable
                                          style={{ width: '90%',height:'350px' ,borderRadius:30  , margin:10,  }}
                                         cover={<img alt="example"  src={pic4}   height='200px' style={{borderRadius:30}}/>}
                                         >
@@ -104,39 +117,45 @@ const HomeScreen = () =>{
                                         description='Üretim sürecinde, tecrübemiz ile zamandan ödün vermeden verimli proje yönetimi gerçekleştirerek etkin sonuçlar alabilirsiniz.'   />
                                         </Card>
                                 </Grid>   
-                                <Grid container item  xl={3} lg={3} xs={12} md={12} sm={12} justify='center'>
-                                <Card bordered
-                                         style={{ width: '90%',height:'350px' ,borderRadius:30  , margin:10,  }}
-                                        cover={<img alt="example"  src={pic5}   height='200px' style={{borderRadius:30}}/>}
-                                        >
-                                        <Meta title="Tasarım desteği" 
-                                        description='Müşterilerimizin projeleri kapsamında yüksek kaliteli tasarım desteği vermekteyiz.'   />
+                                <Grid container item  xl={3} lg={3} xs={12} md={6} sm={12} justify='center'>
+                                        <Card bordered hoverable
+                                                style={{ width: '90%',height:'350px' ,borderRadius:30  , margin:10,  }}
+                                                cover={<img alt="example"  src={pic5}   height='200px' style={{borderRadius:30}}/>}
+                                                >
+                                                <Meta title="Tasarım desteği" 
+                                                description='Müşterilerimizin projeleri kapsamında yüksek kaliteli tasarım desteği vermekteyiz.'   />
                                         </Card>
                                 </Grid>
 
-                                 <Grid container item xl={3} lg={3} xs={12} md={12} sm={12} justify='center'>
-                                <Card bordered
-                                         style={{ width: '90%',height:'350px' ,borderRadius:30  , margin:10,  }}
-                                        cover={<img alt="example"  src={pic3}   height='200px' style={{borderRadius:30}} />}
-                                        >
-                                        <Meta title="Otomasyon " 
-                                        description='Makine ve ekipmanlarınızı, PLC sistemleri kullanarak en son yeniliklere göre projelendirip, size çalışma rahatlığı katıyor ve zamandan tasarruf sağlıyoruz.'   />
+                                 <Grid container item xl={3} lg={3} xs={12} md={6} sm={12} justify='center'>
+                                        <Card bordered hoverable
+                                                style={{ width: '90%',height:'350px' ,borderRadius:30  , margin:10,  }}
+                                                cover={<img alt="example"  src={pic6}   height='200px' style={{borderRadius:30}} />}
+                                                >
+                                        <Meta title="Tel Erezyon" 
+                                                
+                                                description='Firmamız Tel erezyon yöntemi ile sert ve karmaşık profilli iletken parçaları,yüksek hassasiyetle istenen toleranslar dahilinde işleyebilme kabiliyetine sahiptir.'  />        
                                         </Card>
                                 </Grid>  
                         </Grid>
 
                         <Grid container alignItems='center' justify='center'  className={classes.container2} spacing={20}  >
 
-                        <Grid container item  className={classes.videobody}   xl={3} lg={3} xs={3} md={6} sm={12} justify='center'>
-                                <iframe  style={{borderRadius:30,}} title='video1' width="450" height="275" src="https://www.youtube.com/embed/bRnPfE8hlXY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                </Grid>
-                                <Grid container item  className={classes.videobody}   xl={3} lg={3} xs={3} md={6} sm={12} justify='center'>
-                                <iframe style={{borderRadius:30,}} title='video2' width="450" height="275"  src="https://www.youtube.com/embed/ESNvLynAanQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                </Grid>
-                                <Grid container item  className={classes.videobody}   xl={3} lg={3} xs={3} md={6} sm={12} justify='center'>
-                                <iframe  style={{borderRadius:30,}} title='video3' width="450" height="275"   src="https://www.youtube.com/embed/iTL8162qy7c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <Grid container item  className={classes.videobody}   xl={4} lg={4} xs={4} md={6} sm={12} justify='center'>
+                                        <iframe  style={{borderRadius:30,}} title='video1' width="450" height="275" src="https://www.youtube.com/embed/9rd0_XpGSM8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
                                 </Grid>
-                                <Grid container item  className={classes.videobody}   xl={3} lg={3} xs={3} md={6} sm={12} justify='center'>  
-                                   <iframe  style={{borderRadius:30,}}  title='video4' width="450" height="275"  src="https://www.youtube.com/embed/V-7zXcbgyFQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                </Grid>
-                      
+                                <Grid container item  className={classes.videobody}   xl={4} lg={4} xs={4} md={6} sm={12} justify='center'>
+                                        <iframe style={{borderRadius:30,}} title='video2' width="450" height="275"  src="https://www.youtube.com/embed/i16d4IRpUug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
+                                </Grid>
+                                <Grid container item  className={classes.videobody}   xl={4} lg={4} xs={4} md={6} sm={12} justify='center'>
+                                        <iframe  style={{borderRadius:30,}} title='video3' width="450" height="275"   src="https://www.youtube.com/embed/V96RXQR-Zx0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </Grid>
+                                <Grid container item  className={classes.videobody}   xl={4} lg={4} xs={4} md={6} sm={12} justify='center'>  
+                                        <iframe  style={{borderRadius:30,}}  title='video4' width="450" height="275"  src="https://www.youtube.com/embed/u8QIxEhcBpw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
+                                </Grid>
+                                <Grid container item  className={classes.videobody}   xl={4} lg={4} xs={4} md={6} sm={12} justify='center'>  
+                                        <iframe  style={{borderRadius:30,}}  title='video4' width="450" height="275"  src="https://www.youtube.com/embed/hA5HSim4VDI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                                
+                                </Grid>
 
 
                                   

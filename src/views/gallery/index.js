@@ -24,6 +24,9 @@ import mac9 from '../../asset/img/mac9.jpg'
 import mac10 from '../../asset/img/mac10.jpg'
 import mac11 from '../../asset/img/mac11.jpg'
 import mac12 from '../../asset/img/mac12.jpg'
+import mac13 from '../../asset/img/product1.jpeg'
+import mac14 from '../../asset/img/product2.jpeg'
+import mac15 from '../../asset/img/product3.jpeg'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -43,7 +46,7 @@ const Gallery = ()=>{
 
 const classes = useStyles();
 const descount =[ des1,des7,des8,des8,des9,des10,des11,des12,des13,des14,des15,des16]
-const maccount =[ mac1,mac2,mac3,mac4,mac5,mac6,mac7,mac8,mac9,mac10,mac11,mac12]
+const maccount =[ mac1,mac2,mac3,mac4,mac5,mac6,mac7,mac8,mac9,mac10,mac11,mac12,mac13,mac14,mac15]
 
  console.log(descount)
 
